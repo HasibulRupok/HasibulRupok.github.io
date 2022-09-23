@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="css/all.css" />
+
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Rupok | Home</title>
+  </head>
+  <body>
+    <section class="w-11/12 mx-auto h-5/6 my-auto bodySection">
+      <!-- navbar  sm:block sm:mt-2 sm:w-fit sm:mx-auto       -->
+      <nav class="bg-transparent">
+        <ul
+          class="list-none lg:flex lg:justify-end md:flex md:justify-end navWidthSm"
+          id="liContainer"
+        >
+          <li class="mx-2 px-2 activePage" id="homeBtn"><button href="">Home</button></li>
+          <li class="mx-2 px-2">
+            <button id="profileBtn" href="">Profile</button>
+          </li>
+          <li class="mx-2 px-2"><a href="">Profile</a></li>
+          <li class="mx-2 px-2"><a href="">Profile</a></li>
+          <li class="mx-2 px-2"><a href="">Profile</a></li>
+        </ul>
+        <button class="resNavBtn md:hidden text-xl" id="menuButton">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <section
+        class="flex justify-between mt-5 homeInSmall homeParent align-item-center"
+        id="homeSection"
+      >
+        <div class="justify-center justify-items-center homeSplit w-1/2">
+          <div class="vertically-Center">
+            <p>Hello i'm</p>
+            <h1 class="text-2xl font-bold name">Hasibul Hasan Rupok</h1>
+            <p>Developer | Designer</p>
+
+            <button class="twoButton">More About Me</button>
+            <button class="twoButton">
+              <a class="" href="files/cv.pdf" download>Download CV</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="w-1/2 homeSplit homeImage">
+          <div class="vertically-Center">
+            <img class="mx-auto dp-1" src="files/dp2.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- profile section  -->
+
+      <section id="profileSection" class="hidden">
+        <div class="w-1/2">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique
+            laudantium iure, consequatur fuga accusamus quas. Aut tempora qui
+            omnis minus?
+          </p>
+        </div>
+        <div class="w-1/2">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique
+            laudantium iure, consequatur fuga accusamus quas. Aut tempora qui
+            omnis minus?
+          </p>
+        </div>
+      </section>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
