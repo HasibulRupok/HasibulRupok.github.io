@@ -13,7 +13,7 @@ $(document).ready(function () {
   $(document).ready(function () {
     // more click 
     $("#moreBBtn").click(function(){
-      window.location.pathname = "pages/profile.html";
+      window.location.pathname = "../pages/profile.html";
     });
   });
 });
