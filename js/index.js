@@ -36,3 +36,10 @@ $(document).ready(function () {
     });
   });
 });
+
+const viewDetails = item =>{
+  if(item !== ""){
+    sessionStorage.setItem("viewItem", item);
+    window.open("../pages/details.html", "_blank");
+  }
+}
