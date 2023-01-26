@@ -223,15 +223,26 @@ nav {
   font-size: large;
 }
 
-.row>div>a {
+.projectViewBtns>a {
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 30px;
-  padding: 10px 20px;
+  padding: 6px 20px;
   color: #f03b6b;
   font-size: small;
 }
+.projectViewBtns>a:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
 
-.row>div>a:hover {
+
+.projectViewBtns>button {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 30px;
+  padding: 5px 20px;
+  color: #f03b6b;
+  font-size: small;
+}
+.projectViewBtns>button:hover {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
