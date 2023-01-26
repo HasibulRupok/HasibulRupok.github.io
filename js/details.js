@@ -4,12 +4,12 @@ let Virtual_assistent = {
     'features' : ['Search Info from internet', 'Play youtube with voice comand', 'Realtime update about time and place', 'Jokes for time pass', 'and so more'],
     'isVideoAvailable' : true,
     'video' : 'https://www.youtube.com/embed/ViZtKUgJHMQ',
-    'images' : ['virtual.jpeg', 'googlephotoshare.jpeg', 'blockchain.png']
+    'images' : ['anannaya.JPG','virtual.jpeg', 'googlephotoshare.jpeg']
 };
 let data = {
     'virtual assistent' : Virtual_assistent
 };
-// const item = sessionStorage.getItem("viewItem");
+// const item = sessionStorage.getItem("viewItem");    ...> , 'blockchain.png'
 const item = "virtual assistent";
 
 if(data[item] !== undefined){
