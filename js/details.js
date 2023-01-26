@@ -4,7 +4,7 @@ let Virtual_assistent = {
     'features' : ['Search Info from internet', 'Play youtube with voice comand', 'Realtime update about time and place', 'Jokes for time pass', 'and so more'],
     'isVideoAvailable' : true,
     'video' : 'https://www.youtube.com/embed/ViZtKUgJHMQ',
-    'images' : ['anannaya.JPG','virtual.jpeg', 'googlephotoshare.jpeg']
+    'images' : ['anannaya.jpg','virtual.jpeg', 'googlephotoshare.jpeg']
 };
 let data = {
     'virtual assistent' : Virtual_assistent
