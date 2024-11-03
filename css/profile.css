@@ -2,6 +2,11 @@
   margin-bottom: 3rem;
 }
 
+#profile-info-buttons-container {
+  margin-bottom: 2rem;
+  margin-left: 7% !important;
+}
+
 .bodySection {
   overflow-x: hidden;
   overflow-y: auto;
@@ -163,12 +168,29 @@
   font-size: x-large;
   font-weight: 600;
   margin-bottom: 6px;
+  line-height: 1.2;
 }
 
 .content>h2>span {
   font-size: large;
   font-weight: 600;
   columns: rgba(36, 56, 58, 0.274);
+}
+
+.content>p {
+  line-height: 1.5;
+}
+
+.publication-view-link>a {
+  color: rgba(26, 138, 193, 0.82);
+  text-decoration: underline;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.publication-view-link>a:hover {
+  color: rgba(42, 173, 239, 0.82);
+
 }
 
 .display-None {
@@ -213,5 +235,10 @@
     text-align: center;
     margin-bottom: 0.5rem;
     font-size: large;
+  }
+
+  #profile-info-buttons-container {
+    margin-bottom: 2rem;
+    margin-left: 10px !important;
   }
 }
