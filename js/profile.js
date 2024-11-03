@@ -9,11 +9,14 @@ document.getElementById("experienceBtn").addEventListener('click', function () {
 document.getElementById("awardBtn").addEventListener('click', function () {
     activeMe(3);
 });
+document.getElementById("publicationBtn").addEventListener('click', function () {
+    activeMe(4);
+});
 
 function activeMe(id) {
     if (id == 0) return;
-    const buttons = ['N/A', 'educationBtn', 'experienceBtn', 'awardBtn'];
-    const tabs = ['N/A', 'educationTab', 'experienceTab', 'awardTab'];
+    const buttons = ['N/A', 'educationBtn', 'experienceBtn', 'awardBtn', 'publicationBtn'];
+    const tabs = ['N/A', 'educationTab', 'experienceTab', 'awardTab', 'publicationTab'];
 
     const experienceTab = document.getElementById(tabs[id]);
     if (experienceTab.style.display === 'none') {
